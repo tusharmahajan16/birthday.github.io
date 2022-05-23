@@ -42,7 +42,7 @@ const animationTimeline = () => {
     })
     .to(
       ".one",
-      0.7,
+      1.5,
       {
         opacity: 0,
         y: 10
@@ -51,28 +51,28 @@ const animationTimeline = () => {
     )
     .to(
       ".two",
-      0.7,
+      1.5,
       {
         opacity: 0,
         y: 10
       },
       "-=1"
     )
-    .from(".three", 0.7, {
+    .from(".three", 1.5, {
       opacity: 0,
       y: 10
       // scale: 0.7
     })
     .to(
       ".three",
-      0.7,
+      1.5,
       {
         opacity: 0,
         y: 10
       },
       "+=2"
     )
-    .from(".four", 0.7, {
+    .from(".four", 1.5, {
       scale: 0.2,
       opacity: 0
     })
@@ -93,7 +93,7 @@ const animationTimeline = () => {
     })
     .to(
       ".four",
-      0.5,
+      1,
       {
         scale: 0.2,
         opacity: 0,
@@ -259,7 +259,7 @@ const animationTimeline = () => {
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
       ".last-smile",
-      0.5,
+      1.5,
       {
         rotation: 90
       },
