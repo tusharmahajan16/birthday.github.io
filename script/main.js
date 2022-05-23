@@ -183,8 +183,8 @@ const animationTimeline = () => {
       0.2
     )
     .from(
-      ".lydia-dp",
-      0.5,
+      ".Sejal-dp",
+      1.5,
       {
         scale: 3.5,
         opacity: 0,
